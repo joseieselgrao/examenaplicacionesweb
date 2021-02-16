@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(231, 198, 158);
+}
+
+hr {
+    color: rgb(255, 253, 249);
+}
+
+h1.titulo {
+    text-align: center;
+    color: blue;
+}
+
+img.bitcoin_img {
+    width: 150px;
+    height: 150px;
+}
+
+p.bitcoin_p {
+    text-align: right;
+    color: blue;
+}
+
+img.etherum_img {
+    width: 150px;
+    height: 150px;
+}
+
+p.etherum_p {
+    position: relative;
+    text-align: center;
+
+    background-color: white;
+    color: blue;
+}
+
+img.litecoin_img {
+    height: 150px;
+    height: 150px;
+}
+
+p.litecoin_p {
+    color: blue;
+    position: relative;
+    left: 300px;
+}
+
+span.color_nombre {
+    color: red;
+}
+
+p.color_nombre_p {
+    background-color: yellow;
+    text-align: center;
+}

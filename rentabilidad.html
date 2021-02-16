@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen aplicaciones web</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function cantidad() {
+            var cantidad_dada = document.getElementById("val");
+            cantidad_dada.style.color = "red";
+            document.getElementById("val") = cantidad_dada;
+
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo"><a href="index.html">Criptomendas</a></h1>
+    </header>
+    <hr>
+
+    <main>
+        <div>
+            <p>Bitcoin  <input type="text" id="val">. Valor 39.262€</p>
+
+            <p>Cantidad monedas <input type="text" id="val" onclick="cantidad()"> Valor</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="color_nombre_p">Web desarollada por <span class="color_nombre">José Viana Canet</span> </p>
+    </footer>
+</body>
+</html>
